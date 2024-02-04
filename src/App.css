@@ -1,4 +1,40 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    background-color: beige;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+.navbar-menu-container{
+    display: none;
+}
+.navbar-links-container a{
+    margin-right: 3em;
+    text-decoration: none;
+    color: #275276;
+    font-size: 1.1rem;
+    font-weight: 600px;
+}
+.primary-button{
+    padding: 0.9rem 1.75rem;
+    background-color: #275276;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600px;
+    transition: 0.2s;
+
 }
